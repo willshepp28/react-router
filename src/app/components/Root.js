@@ -4,7 +4,7 @@ import { Header } from "./Header";
 
 
 
-export class Header extends React.Component{
+export class Root extends React.Component{
 
     render(){
         return(
