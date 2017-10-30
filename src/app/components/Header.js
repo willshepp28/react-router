@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 
 
@@ -9,8 +10,8 @@ export const Header = (props) => {
             <div className="container">
                 <div className="navbar-header">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">User</a></li>
+                        <li><Link to={"/home"} activeStyle={{ color: "red" }}>Home</Link></li>
+                        <li><Link to={"/user"}>User</Link></li>
                     </ul>
                 </div>
             </div>
